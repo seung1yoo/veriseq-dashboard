@@ -1,0 +1,102 @@
+x-backend: &backend
+  build:
+    context: .
+    dockerfile: backend/Dockerfile
+  environment: &backend-env
+    VERISEQ_APP_ENV: production
+    VERISEQ_DATABASE_URL: postgresql+psycopg://veriseq_dashboard:${POSTGRES_PASSWORD:?Configure POSTGRES_PASSWORD in .env}@db/veriseq_dashboard
+    VERISEQ_SOURCE_ROOT: /data/veriseq
+    VERISEQ_SEED_ROOT: /app/database/seed
+    VERISEQ_DISPLAY_TIMEZONE: ${VERISEQ_TIMEZONE:-UTC}
+    VERISEQ_DEVELOPMENT_AUTH_ENABLED: "false"
+  volumes:
+    - type: bind
+      source: ${VERISEQ_HOST_SOURCE_PATH:?Configure VERISEQ_HOST_SOURCE_PATH in .env}
+      target: /data/veriseq
+      read_only: true
+      bind:
+        create_host_path: false
+    - type: bind
+      source: ${VERISEQ_HOST_SEED_PATH:-./database/seed}
+      target: /app/database/seed
+      read_only: true
+      bind:
+        create_host_path: false
+
+services:
+  db:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_DB: veriseq_dashboard
+      POSTGRES_USER: veriseq_dashboard
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?Configure POSTGRES_PASSWORD in .env}
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U veriseq_dashboard -d veriseq_dashboard"]
+      interval: 5s
+      timeout: 5s
+      retries: 12
+    restart: unless-stopped
+
+  migrate:
+    <<: *backend
+    environment:
+      <<: *backend-env
+      VERISEQ_INITIAL_ADMIN_EMAIL: ${VERISEQ_INITIAL_ADMIN_EMAIL:?Configure administrator email}
+      VERISEQ_INITIAL_ADMIN_PASSWORD: ${VERISEQ_INITIAL_ADMIN_PASSWORD:?Configure administrator password}
+      VERISEQ_DEMO_MODE: ${VERISEQ_DEMO_MODE:-false}
+    command: ["sh", "-c", "alembic upgrade head && veriseq-seed && if [ \"$$VERISEQ_DEMO_MODE\" = true ]; then python -m veriseq_dashboard.demo; fi"]
+    depends_on:
+      db:
+        condition: service_healthy
+    restart: "no"
+
+  api:
+    <<: *backend
+    environment:
+      <<: *backend-env
+      VERISEQ_ALLOWED_EMAIL_DOMAIN: ${VERISEQ_ALLOWED_EMAIL_DOMAIN:-}
+      VERISEQ_PUBLIC_BASE_URL: ${VERISEQ_PUBLIC_BASE_URL:-http://localhost:3000}
+    depends_on:
+      migrate:
+        condition: service_completed_successfully
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8000/api/v1/health')"]
+      interval: 5s
+      timeout: 5s
+      retries: 12
+    restart: unless-stopped
+
+  worker:
+    <<: *backend
+    command: ["veriseq-worker"]
+    depends_on:
+      migrate:
+        condition: service_completed_successfully
+    restart: unless-stopped
+
+  frontend:
+    build: ./frontend
+    healthcheck:
+      test: ["CMD", "node", "-e", "fetch('http://127.0.0.1:3000').then(r=>{if(!r.ok)process.exit(1)}).catch(()=>process.exit(1))"]
+      interval: 5s
+      timeout: 5s
+      retries: 12
+    restart: unless-stopped
+
+  web:
+    image: nginx:1.28-alpine
+    ports:
+      - "${VERISEQ_BIND_ADDRESS:-127.0.0.1}:${VERISEQ_WEB_PORT:-3000}:8080"
+    volumes:
+      - ./deploy/nginx.conf:/etc/nginx/conf.d/default.conf:ro
+    depends_on:
+      api:
+        condition: service_healthy
+      frontend:
+        condition: service_healthy
+    restart: unless-stopped
+
+volumes:
+  postgres_data:

@@ -1,0 +1,28 @@
+.DS_Store
+.env
+.env.*
+!.env.example
+.venv/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+*.py[cod]
+*.sqlite3
+*.db
+data/
+var/
+backups/
+
+# Local originals retained during public-release cleanup
+/.private/
+/resource/veriseq_report.html
+/docs/actual_data_validation_2026-09-03.md
+
+# Generated Python packaging and TypeScript build metadata
+*.egg-info/
+*.tsbuildinfo
+
+# Original vendor reference and legacy hosting assets retained locally
+/resource/*.pdf
+/frontend/.openai/
+/frontend/public/og.png

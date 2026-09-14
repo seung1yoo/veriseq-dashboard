@@ -1,0 +1,10 @@
+.git
+.openai
+.env*
+node_modules
+dist
+.next
+.vinext
+.wrangler
+*.tsbuildinfo
+public/og.png

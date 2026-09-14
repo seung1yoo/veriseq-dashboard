@@ -1,0 +1,6569 @@
+{
+  "schema_version": 1,
+  "catalog_version": "public-1",
+  "item_count": 258,
+  "sources": [
+    {
+      "name": "Orphanet",
+      "url": "https://www.orpha.net/",
+      "provenance": "Manually curated from Orphanet by a project contributor; confirmed by the project owner.",
+      "source_release": "Not recorded",
+      "record_mapping_status": "Manual adaptation; ORPHAcode mapping not recorded",
+      "license_status": "Orphanet attribution included. Orphadata Science publishes listed datasets under CC BY 4.0; this catalog is a manually curated adaptation, not an official release."
+    }
+  ],
+  "items": [
+    {
+      "item_id": "I-T13",
+      "display": {
+        "item_name": "Trisomy 13",
+        "disease_name": {
+          "eng": "Patau Syndrome"
+        }
+      },
+      "classification": {
+        "category": "whole_chromosome_aneuploidy",
+        "consequence": "trisomy"
+      },
+      "match_definition": {
+        "method": "categorical",
+        "chromosome": "chr13",
+        "veriseq_tokens": [
+          "+13"
+        ]
+      }
+    },
+    {
+      "item_id": "I-T18",
+      "display": {
+        "item_name": "Trisomy 18",
+        "disease_name": {
+          "eng": "Edward Syndrome"
+        }
+      },
+      "classification": {
+        "category": "whole_chromosome_aneuploidy",
+        "consequence": "trisomy"
+      },
+      "match_definition": {
+        "method": "categorical",
+        "chromosome": "chr18",
+        "veriseq_tokens": [
+          "+18"
+        ]
+      }
+    },
+    {
+      "item_id": "I-T21",
+      "display": {
+        "item_name": "Trisomy 21",
+        "disease_name": {
+          "eng": "Down Syndrome"
+        }
+      },
+      "classification": {
+        "category": "whole_chromosome_aneuploidy",
+        "consequence": "trisomy"
+      },
+      "match_definition": {
+        "method": "categorical",
+        "chromosome": "chr21",
+        "veriseq_tokens": [
+          "+21"
+        ]
+      }
+    },
+    {
+      "item_id": "I-XO",
+      "display": {
+        "item_name": "XO",
+        "disease_name": {
+          "eng": "Turner Syndrome"
+        }
+      },
+      "classification": {
+        "category": "sex_chromosome_aneuploidy",
+        "consequence": "aneuploidy"
+      },
+      "match_definition": {
+        "method": "categorical",
+        "karyotype": "XO",
+        "veriseq_tokens": [
+          "XO"
+        ]
+      }
+    },
+    {
+      "item_id": "I-XXY",
+      "display": {
+        "item_name": "XXY",
+        "disease_name": {
+          "eng": "Klinefelter Syndrome"
+        }
+      },
+      "classification": {
+        "category": "sex_chromosome_aneuploidy",
+        "consequence": "aneuploidy"
+      },
+      "match_definition": {
+        "method": "categorical",
+        "karyotype": "XXY",
+        "veriseq_tokens": [
+          "XXY"
+        ]
+      }
+    },
+    {
+      "item_id": "I-XXX",
+      "display": {
+        "item_name": "XXX",
+        "disease_name": {
+          "eng": "Triple X Syndrome"
+        }
+      },
+      "classification": {
+        "category": "sex_chromosome_aneuploidy",
+        "consequence": "aneuploidy"
+      },
+      "match_definition": {
+        "method": "categorical",
+        "karyotype": "XXX",
+        "veriseq_tokens": [
+          "XXX"
+        ]
+      }
+    },
+    {
+      "item_id": "I-XYY",
+      "display": {
+        "item_name": "XYY",
+        "disease_name": {
+          "eng": "Jacobs Syndrome"
+        }
+      },
+      "classification": {
+        "category": "sex_chromosome_aneuploidy",
+        "consequence": "aneuploidy"
+      },
+      "match_definition": {
+        "method": "categorical",
+        "karyotype": "XYY",
+        "veriseq_tokens": [
+          "XYY"
+        ]
+      }
+    },
+    {
+      "item_id": "I-T9",
+      "display": {
+        "item_name": "Trisomy 9",
+        "disease_name": {
+          "eng": "Trisomy 9"
+        }
+      },
+      "classification": {
+        "category": "whole_chromosome_aneuploidy",
+        "consequence": "trisomy"
+      },
+      "match_definition": {
+        "method": "categorical",
+        "chromosome": "chr9",
+        "veriseq_tokens": [
+          "+9"
+        ]
+      }
+    },
+    {
+      "item_id": "I-T16",
+      "display": {
+        "item_name": "Trisomy 16",
+        "disease_name": {
+          "eng": "Trisomy 16"
+        }
+      },
+      "classification": {
+        "category": "whole_chromosome_aneuploidy",
+        "consequence": "trisomy"
+      },
+      "match_definition": {
+        "method": "categorical",
+        "chromosome": "chr16",
+        "veriseq_tokens": [
+          "+16"
+        ]
+      }
+    },
+    {
+      "item_id": "I-T22",
+      "display": {
+        "item_name": "Trisomy 22",
+        "disease_name": {
+          "eng": "Trisomy 22"
+        }
+      },
+      "classification": {
+        "category": "whole_chromosome_aneuploidy",
+        "consequence": "trisomy"
+      },
+      "match_definition": {
+        "method": "categorical",
+        "chromosome": "chr22",
+        "veriseq_tokens": [
+          "+22"
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0001",
+      "display": {
+        "item_name": "1p36 deletion",
+        "disease_name": {
+          "eng": "1p36 Deletion Syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "deletion"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr1",
+            "cytoband": "p36",
+            "start": 0,
+            "end": 28000000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0002",
+      "display": {
+        "item_name": "2p15-p16.1 deletion",
+        "disease_name": {
+          "eng": "2p15-p16.1 Microdeletion Syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "deletion"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr2",
+            "cytoband": "p15-p16.1",
+            "start": 55000000,
+            "end": 64100000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0003",
+      "display": {
+        "item_name": "3q29 deletion",
+        "disease_name": {
+          "eng": "3q29 Microdeletion Syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "deletion"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr3",
+            "cytoband": "q29",
+            "start": 192300000,
+            "end": 198022430
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0004",
+      "display": {
+        "item_name": "4p16 deletion",
+        "disease_name": {
+          "eng": "Wolf-Hirschhorn Syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "deletion"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr4",
+            "cytoband": "p16",
+            "start": 0,
+            "end": 11300000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0005",
+      "display": {
+        "item_name": "5p15.2-p15.3 deletion",
+        "disease_name": {
+          "eng": "Cri-du-chat Syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "deletion"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr5",
+            "cytoband": "p15.2-p15.3",
+            "start": 0,
+            "end": 15000000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0006",
+      "display": {
+        "item_name": "7p14.1 deletion",
+        "disease_name": {
+          "eng": "Greig Cephalopolysyndactyly Syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "deletion"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr7",
+            "cytoband": "p14.1",
+            "start": 37200000,
+            "end": 43300000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0007",
+      "display": {
+        "item_name": "8q23.3-q24.11 deletion",
+        "disease_name": {
+          "eng": "Langer-Giedion Syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "deletion"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr8",
+            "cytoband": "q23.3-q24.11",
+            "start": 112100000,
+            "end": 119200000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0008",
+      "display": {
+        "item_name": "10q26 deletion",
+        "disease_name": {
+          "eng": "10q26 Deletion Syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "deletion"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr10",
+            "cytoband": "q26",
+            "start": 119100000,
+            "end": 135534747
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0009",
+      "display": {
+        "item_name": "11p13 deletion",
+        "disease_name": {
+          "eng": "WAGR Syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "deletion"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr11",
+            "cytoband": "p13",
+            "start": 31000000,
+            "end": 36400000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0010",
+      "display": {
+        "item_name": "11q23.3 deletion",
+        "disease_name": {
+          "eng": "Jacobsen Syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "deletion"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr11",
+            "cytoband": "q23.3",
+            "start": 114500000,
+            "end": 121200000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0011",
+      "display": {
+        "item_name": "15q11-q13 deletion",
+        "disease_name": {
+          "eng": "Prader-Willi / Angelman Syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "deletion"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr15",
+            "cytoband": "q11-q13",
+            "start": 19000000,
+            "end": 33600000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0012",
+      "display": {
+        "item_name": "16p11.2-p12.2 deletion",
+        "disease_name": {
+          "eng": "16p11.2-p12.2 Microdeletion Syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "deletion"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr16",
+            "cytoband": "p11.2-p12.2",
+            "start": 21200000,
+            "end": 34600000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0013",
+      "display": {
+        "item_name": "22q11.2 deletion",
+        "disease_name": {
+          "eng": "DiGeorge Syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "deletion"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr22",
+            "cytoband": "q11.2",
+            "start": 17900000,
+            "end": 25900000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0014",
+      "display": {
+        "item_name": "22q13.3 deletion",
+        "disease_name": {
+          "eng": "Phelan-McDermid Syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "deletion"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr22",
+            "cytoband": "q13.3",
+            "start": 44200000,
+            "end": 51304566
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0015",
+      "display": {
+        "item_name": "Xp22.32 deletion",
+        "disease_name": {
+          "eng": "Kallmann Syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "deletion"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chrX",
+            "cytoband": "p22.32",
+            "start": 4300000,
+            "end": 6000000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-T1",
+      "display": {
+        "item_name": "Trisomy 1",
+        "disease_name": {
+          "eng": "Trisomy 1"
+        }
+      },
+      "classification": {
+        "category": "whole_chromosome_aneuploidy",
+        "consequence": "trisomy"
+      },
+      "match_definition": {
+        "method": "categorical",
+        "chromosome": "chr1",
+        "veriseq_tokens": [
+          "+1"
+        ]
+      }
+    },
+    {
+      "item_id": "I-T2",
+      "display": {
+        "item_name": "Trisomy 2",
+        "disease_name": {
+          "eng": "Trisomy 2"
+        }
+      },
+      "classification": {
+        "category": "whole_chromosome_aneuploidy",
+        "consequence": "trisomy"
+      },
+      "match_definition": {
+        "method": "categorical",
+        "chromosome": "chr2",
+        "veriseq_tokens": [
+          "+2"
+        ]
+      }
+    },
+    {
+      "item_id": "I-T3",
+      "display": {
+        "item_name": "Trisomy 3",
+        "disease_name": {
+          "eng": "Trisomy 3"
+        }
+      },
+      "classification": {
+        "category": "whole_chromosome_aneuploidy",
+        "consequence": "trisomy"
+      },
+      "match_definition": {
+        "method": "categorical",
+        "chromosome": "chr3",
+        "veriseq_tokens": [
+          "+3"
+        ]
+      }
+    },
+    {
+      "item_id": "I-T4",
+      "display": {
+        "item_name": "Trisomy 4",
+        "disease_name": {
+          "eng": "Trisomy 4"
+        }
+      },
+      "classification": {
+        "category": "whole_chromosome_aneuploidy",
+        "consequence": "trisomy"
+      },
+      "match_definition": {
+        "method": "categorical",
+        "chromosome": "chr4",
+        "veriseq_tokens": [
+          "+4"
+        ]
+      }
+    },
+    {
+      "item_id": "I-T5",
+      "display": {
+        "item_name": "Trisomy 5",
+        "disease_name": {
+          "eng": "Trisomy 5"
+        }
+      },
+      "classification": {
+        "category": "whole_chromosome_aneuploidy",
+        "consequence": "trisomy"
+      },
+      "match_definition": {
+        "method": "categorical",
+        "chromosome": "chr5",
+        "veriseq_tokens": [
+          "+5"
+        ]
+      }
+    },
+    {
+      "item_id": "I-T6",
+      "display": {
+        "item_name": "Trisomy 6",
+        "disease_name": {
+          "eng": "Trisomy 6"
+        }
+      },
+      "classification": {
+        "category": "whole_chromosome_aneuploidy",
+        "consequence": "trisomy"
+      },
+      "match_definition": {
+        "method": "categorical",
+        "chromosome": "chr6",
+        "veriseq_tokens": [
+          "+6"
+        ]
+      }
+    },
+    {
+      "item_id": "I-T7",
+      "display": {
+        "item_name": "Trisomy 7",
+        "disease_name": {
+          "eng": "Trisomy 7"
+        }
+      },
+      "classification": {
+        "category": "whole_chromosome_aneuploidy",
+        "consequence": "trisomy"
+      },
+      "match_definition": {
+        "method": "categorical",
+        "chromosome": "chr7",
+        "veriseq_tokens": [
+          "+7"
+        ]
+      }
+    },
+    {
+      "item_id": "I-T8",
+      "display": {
+        "item_name": "Trisomy 8",
+        "disease_name": {
+          "eng": "Warkany Syndrome 2"
+        }
+      },
+      "classification": {
+        "category": "whole_chromosome_aneuploidy",
+        "consequence": "trisomy"
+      },
+      "match_definition": {
+        "method": "categorical",
+        "chromosome": "chr8",
+        "veriseq_tokens": [
+          "+8"
+        ]
+      }
+    },
+    {
+      "item_id": "I-T10",
+      "display": {
+        "item_name": "Trisomy 10",
+        "disease_name": {
+          "eng": "Trisomy 10"
+        }
+      },
+      "classification": {
+        "category": "whole_chromosome_aneuploidy",
+        "consequence": "trisomy"
+      },
+      "match_definition": {
+        "method": "categorical",
+        "chromosome": "chr10",
+        "veriseq_tokens": [
+          "+10"
+        ]
+      }
+    },
+    {
+      "item_id": "I-T11",
+      "display": {
+        "item_name": "Trisomy 11",
+        "disease_name": {
+          "eng": "Trisomy 11"
+        }
+      },
+      "classification": {
+        "category": "whole_chromosome_aneuploidy",
+        "consequence": "trisomy"
+      },
+      "match_definition": {
+        "method": "categorical",
+        "chromosome": "chr11",
+        "veriseq_tokens": [
+          "+11"
+        ]
+      }
+    },
+    {
+      "item_id": "I-T12",
+      "display": {
+        "item_name": "Trisomy 12",
+        "disease_name": {
+          "eng": "Trisomy 12"
+        }
+      },
+      "classification": {
+        "category": "whole_chromosome_aneuploidy",
+        "consequence": "trisomy"
+      },
+      "match_definition": {
+        "method": "categorical",
+        "chromosome": "chr12",
+        "veriseq_tokens": [
+          "+12"
+        ]
+      }
+    },
+    {
+      "item_id": "I-T14",
+      "display": {
+        "item_name": "Trisomy 14",
+        "disease_name": {
+          "eng": "Trisomy 14"
+        }
+      },
+      "classification": {
+        "category": "whole_chromosome_aneuploidy",
+        "consequence": "trisomy"
+      },
+      "match_definition": {
+        "method": "categorical",
+        "chromosome": "chr14",
+        "veriseq_tokens": [
+          "+14"
+        ]
+      }
+    },
+    {
+      "item_id": "I-T15",
+      "display": {
+        "item_name": "Trisomy 15",
+        "disease_name": {
+          "eng": "Trisomy 15"
+        }
+      },
+      "classification": {
+        "category": "whole_chromosome_aneuploidy",
+        "consequence": "trisomy"
+      },
+      "match_definition": {
+        "method": "categorical",
+        "chromosome": "chr15",
+        "veriseq_tokens": [
+          "+15"
+        ]
+      }
+    },
+    {
+      "item_id": "I-T17",
+      "display": {
+        "item_name": "Trisomy 17",
+        "disease_name": {
+          "eng": "Trisomy 17"
+        }
+      },
+      "classification": {
+        "category": "whole_chromosome_aneuploidy",
+        "consequence": "trisomy"
+      },
+      "match_definition": {
+        "method": "categorical",
+        "chromosome": "chr17",
+        "veriseq_tokens": [
+          "+17"
+        ]
+      }
+    },
+    {
+      "item_id": "I-T19",
+      "display": {
+        "item_name": "Trisomy 19",
+        "disease_name": {
+          "eng": "Trisomy 19"
+        }
+      },
+      "classification": {
+        "category": "whole_chromosome_aneuploidy",
+        "consequence": "trisomy"
+      },
+      "match_definition": {
+        "method": "categorical",
+        "chromosome": "chr19",
+        "veriseq_tokens": [
+          "+19"
+        ]
+      }
+    },
+    {
+      "item_id": "I-T20",
+      "display": {
+        "item_name": "Trisomy 20",
+        "disease_name": {
+          "eng": "Trisomy 20"
+        }
+      },
+      "classification": {
+        "category": "whole_chromosome_aneuploidy",
+        "consequence": "trisomy"
+      },
+      "match_definition": {
+        "method": "categorical",
+        "chromosome": "chr20",
+        "veriseq_tokens": [
+          "+20"
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0016",
+      "display": {
+        "item_name": "1p36.33 duplication",
+        "disease_name": {
+          "eng": "1p36.33 Duplication Syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "duplication"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr1",
+            "cytoband": "p36.33",
+            "start": 0,
+            "end": 2300000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0017",
+      "display": {
+        "item_name": "1p35.2 deletion",
+        "disease_name": {
+          "eng": "1p35.2 Microdeletion Syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "deletion"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr1",
+            "cytoband": "p35.2",
+            "start": 30200000,
+            "end": 32400000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0018",
+      "display": {
+        "item_name": "1p34.1 duplication",
+        "disease_name": {
+          "eng": "1p34.1 Duplication Syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "duplication"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr1",
+            "cytoband": "p34.1",
+            "start": 44100000,
+            "end": 46800000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0019",
+      "display": {
+        "item_name": "1p32-p31 deletion",
+        "disease_name": {
+          "eng": "1p32-p31 Microdeletion Syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "deletion"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr1",
+            "cytoband": "p32-p31",
+            "start": 50700000,
+            "end": 84900000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0020",
+      "display": {
+        "item_name": "1p21.3 deletion",
+        "disease_name": {
+          "eng": "1p21.3 Microdeletion Syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "deletion"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr1",
+            "cytoband": "p21.3",
+            "start": 94700000,
+            "end": 99700000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0021",
+      "display": {
+        "item_name": "1q21.1 duplication",
+        "disease_name": {
+          "eng": "1q21.1 microduplication syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "duplication"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr1",
+            "cytoband": "q21.1",
+            "start": 142600000,
+            "end": 147000000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0022",
+      "display": {
+        "item_name": "1q21.1 deletion",
+        "disease_name": {
+          "eng": "1q21.1 microdeletion syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "deletion"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr1",
+            "cytoband": "q21.1",
+            "start": 142600000,
+            "end": 147000000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0023",
+      "display": {
+        "item_name": "1q24-q25 deletion",
+        "disease_name": {
+          "eng": "1q24-q25 deletion syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "deletion"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr1",
+            "cytoband": "q24-q25",
+            "start": 165500000,
+            "end": 185800000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0024",
+      "display": {
+        "item_name": "1q41-q42 deletion",
+        "disease_name": {
+          "eng": "1q41-q42 microdeletion syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "deletion"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr1",
+            "cytoband": "q41-q42",
+            "start": 214500000,
+            "end": 236600000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0025",
+      "display": {
+        "item_name": "1q43-q44 deletion",
+        "disease_name": {
+          "eng": "1q43-q44 deletion syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "deletion"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr1",
+            "cytoband": "q43-q44",
+            "start": 236600000,
+            "end": 249250621
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0026",
+      "display": {
+        "item_name": "1q44 deletion",
+        "disease_name": {
+          "eng": "1q44 microdeletion syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "deletion"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr1",
+            "cytoband": "q44",
+            "start": 243700000,
+            "end": 249250621
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0027",
+      "display": {
+        "item_name": "2p24.1-p23.3 deletion",
+        "disease_name": {
+          "eng": "2p24.1-p23.3 microdeletion syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "deletion"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr2",
+            "cytoband": "p24.1-p23.3",
+            "start": 19200000,
+            "end": 27900000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0028",
+      "display": {
+        "item_name": "2q13-q22.3 duplication",
+        "disease_name": {
+          "eng": "2q13-q22.3 microduplication syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "duplication"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr2",
+            "cytoband": "q13-q22.3",
+            "start": 110200000,
+            "end": 148700000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0029",
+      "display": {
+        "item_name": "2p21 deletion",
+        "disease_name": {
+          "eng": "2p21 microdeletion syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "deletion"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr2",
+            "cytoband": "p21",
+            "start": 41800000,
+            "end": 47800000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0030",
+      "display": {
+        "item_name": "2p16.3 deletion",
+        "disease_name": {
+          "eng": "2p16.3 deletion syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "deletion"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr2",
+            "cytoband": "p16.3",
+            "start": 47800000,
+            "end": 52900000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0031",
+      "display": {
+        "item_name": "2p13.2 deletion",
+        "disease_name": {
+          "eng": "2p13.2 microdeletion syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "deletion"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr2",
+            "cytoband": "p13.2",
+            "start": 71500000,
+            "end": 73500000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0032",
+      "display": {
+        "item_name": "2q13 deletion",
+        "disease_name": {
+          "eng": "2q13 microdeletion syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "deletion"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr2",
+            "cytoband": "q13",
+            "start": 110200000,
+            "end": 114400000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0033",
+      "display": {
+        "item_name": "2q23.1 deletion",
+        "disease_name": {
+          "eng": "2q23.1 microdeletion syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "deletion"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr2",
+            "cytoband": "q23.1",
+            "start": 148700000,
+            "end": 149900000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0034",
+      "display": {
+        "item_name": "2q23.1 duplication",
+        "disease_name": {
+          "eng": "2q23.1 microduplication syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "duplication"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr2",
+            "cytoband": "q23.1",
+            "start": 148700000,
+            "end": 149900000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0035",
+      "display": {
+        "item_name": "2q24 deletion",
+        "disease_name": {
+          "eng": "2q24 microdeletion syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "deletion"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr2",
+            "cytoband": "q24",
+            "start": 154900000,
+            "end": 169700000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0036",
+      "display": {
+        "item_name": "2q11.2 deletion",
+        "disease_name": {
+          "eng": "2q11.2 deletion syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "deletion"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr2",
+            "cytoband": "q11.2",
+            "start": 96800000,
+            "end": 102700000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0037",
+      "display": {
+        "item_name": "2q31.1 deletion",
+        "disease_name": {
+          "eng": "2q31.1 microdeletion syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "deletion"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr2",
+            "cytoband": "q31.1",
+            "start": 169700000,
+            "end": 178000000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0038",
+      "display": {
+        "item_name": "2q32-q33 deletion",
+        "disease_name": {
+          "eng": "2q32-q33 deletion syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "deletion"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr2",
+            "cytoband": "q32-q33",
+            "start": 183000000,
+            "end": 209000000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0039",
+      "display": {
+        "item_name": "2q31.2-q32.3 deletion",
+        "disease_name": {
+          "eng": "2q31.2-q32.3 deletion syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "deletion"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr2",
+            "cytoband": "q31.2-q32.3",
+            "start": 178000000,
+            "end": 197400000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0040",
+      "display": {
+        "item_name": "2q33.1 deletion",
+        "disease_name": {
+          "eng": "2q33.1 deletion syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "deletion"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr2",
+            "cytoband": "q33.1",
+            "start": 197400000,
+            "end": 203300000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0041",
+      "display": {
+        "item_name": "2q36.1 deletion",
+        "disease_name": {
+          "eng": "Waardenburg syndrome type 1"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "deletion"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr2",
+            "cytoband": "q36.1",
+            "start": 221500000,
+            "end": 225200000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0042",
+      "display": {
+        "item_name": "2q37 deletion",
+        "disease_name": {
+          "eng": "2q37 microdeletion syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "deletion"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr2",
+            "cytoband": "q37",
+            "start": 231000000,
+            "end": 243199373
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0043",
+      "display": {
+        "item_name": "3q22-q24 deletion",
+        "disease_name": {
+          "eng": "Dandy-Walker Syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "deletion"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr3",
+            "cytoband": "q22-q24",
+            "start": 129200000,
+            "end": 148900000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0044",
+      "display": {
+        "item_name": "3p25.3 deletion",
+        "disease_name": {
+          "eng": "3p25.3 microdeletion syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "deletion"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr3",
+            "cytoband": "p25.3",
+            "start": 8700000,
+            "end": 11800000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0045",
+      "display": {
+        "item_name": "3p14.1-p13 deletion",
+        "disease_name": {
+          "eng": "3p14.1-p13 deletion syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "deletion"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr3",
+            "cytoband": "p14.1-p13",
+            "start": 63700000,
+            "end": 74200000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0046",
+      "display": {
+        "item_name": "3p21.31 deletion",
+        "disease_name": {
+          "eng": "3p21.31 deletion syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "deletion"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr3",
+            "cytoband": "p21.31",
+            "start": 44200000,
+            "end": 50600000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0047",
+      "display": {
+        "item_name": "3q13 deletion",
+        "disease_name": {
+          "eng": "3q13 deletion syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "deletion"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr3",
+            "cytoband": "q13",
+            "start": 102800000,
+            "end": 121900000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0048",
+      "display": {
+        "item_name": "3q13.31 deletion",
+        "disease_name": {
+          "eng": "3q13.31 deletion syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "deletion"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr3",
+            "cytoband": "q13.31",
+            "start": 113500000,
+            "end": 117300000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0049",
+      "display": {
+        "item_name": "3q23 deletion",
+        "disease_name": {
+          "eng": "3q23 microdeletion syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "deletion"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr3",
+            "cytoband": "q23",
+            "start": 138700000,
+            "end": 142800000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0050",
+      "display": {
+        "item_name": "3q26 duplication",
+        "disease_name": {
+          "eng": "3q26 microduplication syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "duplication"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr3",
+            "cytoband": "q26",
+            "start": 160700000,
+            "end": 182700000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0051",
+      "display": {
+        "item_name": "3q26-q28 deletion",
+        "disease_name": {
+          "eng": "3q26-q28 deletion syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "deletion"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr3",
+            "cytoband": "q26-q28",
+            "start": 160700000,
+            "end": 192300000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0052",
+      "display": {
+        "item_name": "3q26.3-q27 deletion",
+        "disease_name": {
+          "eng": "Anophthalmia/microphthalmia-esophageal atresia syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "deletion"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr3",
+            "cytoband": "q26.3-q27",
+            "start": 170900000,
+            "end": 187900000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0053",
+      "display": {
+        "item_name": "3q27.3 deletion",
+        "disease_name": {
+          "eng": "3q27.3 microdeletion syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "deletion"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr3",
+            "cytoband": "q27.3",
+            "start": 186000000,
+            "end": 187900000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0054",
+      "display": {
+        "item_name": "3q28-q29 deletion",
+        "disease_name": {
+          "eng": "3q28-q29 deletion syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "deletion"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr3",
+            "cytoband": "q28-q29",
+            "start": 187900000,
+            "end": 198022430
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0055",
+      "display": {
+        "item_name": "4p deletion",
+        "disease_name": {
+          "eng": "4p deletion syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "deletion"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr4",
+            "cytoband": "p",
+            "start": 0,
+            "end": 50400000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0056",
+      "display": {
+        "item_name": "4p duplication",
+        "disease_name": {
+          "eng": "Trisomy 4p syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "duplication"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr4",
+            "cytoband": "p",
+            "start": 0,
+            "end": 50400000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0057",
+      "display": {
+        "item_name": "4p16.3 duplication",
+        "disease_name": {
+          "eng": "4p16.3 microduplication syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "duplication"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr4",
+            "cytoband": "p16.3",
+            "start": 0,
+            "end": 4500000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0058",
+      "display": {
+        "item_name": "4q25 deletion",
+        "disease_name": {
+          "eng": "Rieger syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "deletion"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr4",
+            "cytoband": "q25",
+            "start": 107700000,
+            "end": 114100000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0059",
+      "display": {
+        "item_name": "4q21 deletion",
+        "disease_name": {
+          "eng": "4q21 microdeletion syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "deletion"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr4",
+            "cytoband": "q21",
+            "start": 76300000,
+            "end": 88000000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0060",
+      "display": {
+        "item_name": "4q32.1-q32.2 duplication",
+        "disease_name": {
+          "eng": "4q32.1-q32.2 duplication syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "duplication"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr4",
+            "cytoband": "q32.1-q32.2",
+            "start": 155600000,
+            "end": 164500000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0061",
+      "display": {
+        "item_name": "4q deletion",
+        "disease_name": {
+          "eng": "4q deletion syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "deletion"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr4",
+            "cytoband": "q",
+            "start": 50400000,
+            "end": 191154276
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0062",
+      "display": {
+        "item_name": "5p duplication",
+        "disease_name": {
+          "eng": "5p duplication syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "duplication"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr5",
+            "cytoband": "p",
+            "start": 0,
+            "end": 48400000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0063",
+      "display": {
+        "item_name": "5p deletion",
+        "disease_name": {
+          "eng": "5p deletion syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "deletion"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr5",
+            "cytoband": "p",
+            "start": 0,
+            "end": 48400000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0064",
+      "display": {
+        "item_name": "5p13 duplication",
+        "disease_name": {
+          "eng": "5p13 microduplication syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "duplication"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr5",
+            "cytoband": "p13",
+            "start": 28900000,
+            "end": 42500000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0065",
+      "display": {
+        "item_name": "5q35 deletion",
+        "disease_name": {
+          "eng": "Sotos syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "deletion"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr5",
+            "cytoband": "q35",
+            "start": 168500000,
+            "end": 180915260
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0066",
+      "display": {
+        "item_name": "5q35 duplication",
+        "disease_name": {
+          "eng": "5q35 microduplication syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "duplication"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr5",
+            "cytoband": "q35",
+            "start": 168500000,
+            "end": 180915260
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0067",
+      "display": {
+        "item_name": "5q31.3 deletion",
+        "disease_name": {
+          "eng": "5q31.3 microdeletion syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "deletion"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr5",
+            "cytoband": "q31.3",
+            "start": 139500000,
+            "end": 144500000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0068",
+      "display": {
+        "item_name": "5q31.1 deletion",
+        "disease_name": {
+          "eng": "Houge-Janssens Syndrome 3"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "deletion"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr5",
+            "cytoband": "q31.1",
+            "start": 130600000,
+            "end": 136200000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0069",
+      "display": {
+        "item_name": "5q14.3-q15 deletion",
+        "disease_name": {
+          "eng": "5q14.3-q15 deletion syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "deletion"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr5",
+            "cytoband": "q14.3-q15",
+            "start": 82800000,
+            "end": 98200000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0070",
+      "display": {
+        "item_name": "5q duplication",
+        "disease_name": {
+          "eng": "5q duplication syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "duplication"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr5",
+            "cytoband": "q",
+            "start": 48400000,
+            "end": 180915260
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0071",
+      "display": {
+        "item_name": "5q deletion",
+        "disease_name": {
+          "eng": "5q deletion syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "deletion"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr5",
+            "cytoband": "q",
+            "start": 48400000,
+            "end": 180915260
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0072",
+      "display": {
+        "item_name": "6p deletion",
+        "disease_name": {
+          "eng": "6p deletion syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "deletion"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr6",
+            "cytoband": "p",
+            "start": 0,
+            "end": 61000000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0073",
+      "display": {
+        "item_name": "6p duplication",
+        "disease_name": {
+          "eng": "6p duplication syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "duplication"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr6",
+            "cytoband": "p",
+            "start": 0,
+            "end": 61000000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0074",
+      "display": {
+        "item_name": "6p22 deletion",
+        "disease_name": {
+          "eng": "6p22 microdeletion syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "deletion"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr6",
+            "cytoband": "p22",
+            "start": 15200000,
+            "end": 30400000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0075",
+      "display": {
+        "item_name": "6p25.3 deletion",
+        "disease_name": {
+          "eng": "Axenfeld-Rieger Syndrome Type 3"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "deletion"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr6",
+            "cytoband": "p25.3",
+            "start": 0,
+            "end": 2300000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0076",
+      "display": {
+        "item_name": "6q25.3 deletion",
+        "disease_name": {
+          "eng": "Coffin-Siris Syndrome 1"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "deletion"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr6",
+            "cytoband": "q25.3",
+            "start": 155500000,
+            "end": 161000000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0077",
+      "display": {
+        "item_name": "6q25.2-q25.3 deletion",
+        "disease_name": {
+          "eng": "6q25.2-q25.3 microdeletion syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "deletion"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr6",
+            "cytoband": "q25.2-q25.3",
+            "start": 152500000,
+            "end": 161000000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0078",
+      "display": {
+        "item_name": "6q25.1 deletion",
+        "disease_name": {
+          "eng": "6q25.1 microdeletion syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "deletion"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr6",
+            "cytoband": "q25.1",
+            "start": 149000000,
+            "end": 152500000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0079",
+      "display": {
+        "item_name": "6q21-q22.31 deletion",
+        "disease_name": {
+          "eng": "6q terminal deletion syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "deletion"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr6",
+            "cytoband": "q21-q22.31",
+            "start": 105500000,
+            "end": 126100000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0080",
+      "display": {
+        "item_name": "6q16 deletion",
+        "disease_name": {
+          "eng": "6q16 microdeletion syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "deletion"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr6",
+            "cytoband": "q16",
+            "start": 93100000,
+            "end": 105500000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0081",
+      "display": {
+        "item_name": "6q13-q14 deletion",
+        "disease_name": {
+          "eng": "6q13-q14 deletion syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "deletion"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr6",
+            "cytoband": "q13-q14",
+            "start": 70000000,
+            "end": 88000000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0082",
+      "display": {
+        "item_name": "6q11-q14 deletion",
+        "disease_name": {
+          "eng": "6q11-q14 deletion syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "deletion"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr6",
+            "cytoband": "q11-q14",
+            "start": 61000000,
+            "end": 88000000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0083",
+      "display": {
+        "item_name": "6q deletion",
+        "disease_name": {
+          "eng": "6q deletion syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "deletion"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr6",
+            "cytoband": "q",
+            "start": 61000000,
+            "end": 171115067
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0084",
+      "display": {
+        "item_name": "6q duplication",
+        "disease_name": {
+          "eng": "6q duplication syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "duplication"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr6",
+            "cytoband": "q",
+            "start": 61000000,
+            "end": 171115067
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0085",
+      "display": {
+        "item_name": "7p duplication",
+        "disease_name": {
+          "eng": "7p duplication syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "duplication"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr7",
+            "cytoband": "p",
+            "start": 0,
+            "end": 59900000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0086",
+      "display": {
+        "item_name": "7p deletion",
+        "disease_name": {
+          "eng": "7p deletion syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "deletion"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr7",
+            "cytoband": "p",
+            "start": 0,
+            "end": 59900000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0087",
+      "display": {
+        "item_name": "7p21 deletion",
+        "disease_name": {
+          "eng": "Saethre-Chotzen syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "deletion"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr7",
+            "cytoband": "p21",
+            "start": 7300000,
+            "end": 20900000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0088",
+      "display": {
+        "item_name": "7p22.1 duplication",
+        "disease_name": {
+          "eng": "7p22.1 microduplication syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "duplication"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr7",
+            "cytoband": "p22.1",
+            "start": 4500000,
+            "end": 7300000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0089",
+      "display": {
+        "item_name": "7q11.23 deletion",
+        "disease_name": {
+          "eng": "Williams syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "deletion"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr7",
+            "cytoband": "q11.23",
+            "start": 72200000,
+            "end": 77500000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0090",
+      "display": {
+        "item_name": "7q11.23 duplication",
+        "disease_name": {
+          "eng": "7q11.23 microduplication syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "duplication"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr7",
+            "cytoband": "q11.23",
+            "start": 72200000,
+            "end": 77500000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0091",
+      "display": {
+        "item_name": "7q31 deletion",
+        "disease_name": {
+          "eng": "7q31 microdeletion syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "deletion"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr7",
+            "cytoband": "q31",
+            "start": 107400000,
+            "end": 127100000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0092",
+      "display": {
+        "item_name": "7q36.3 deletion",
+        "disease_name": {
+          "eng": "Currarino Syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "deletion"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr7",
+            "cytoband": "q36.3",
+            "start": 155100000,
+            "end": 159138663
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0093",
+      "display": {
+        "item_name": "7q36.3 duplication",
+        "disease_name": {
+          "eng": "Corpus callosum agenesis-macrocephaly-hypertelorism Syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "duplication"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr7",
+            "cytoband": "q36.3",
+            "start": 155100000,
+            "end": 159138663
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0094",
+      "display": {
+        "item_name": "7q duplication",
+        "disease_name": {
+          "eng": "7q duplication syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "duplication"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr7",
+            "cytoband": "q",
+            "start": 59900000,
+            "end": 159138663
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0095",
+      "display": {
+        "item_name": "7q deletion",
+        "disease_name": {
+          "eng": "7q deletion syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "deletion"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr7",
+            "cytoband": "q",
+            "start": 59900000,
+            "end": 159138663
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0096",
+      "display": {
+        "item_name": "8p duplication",
+        "disease_name": {
+          "eng": "Trisomy 8p syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "duplication"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr8",
+            "cytoband": "p",
+            "start": 0,
+            "end": 45600000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0097",
+      "display": {
+        "item_name": "8p23.1 duplication",
+        "disease_name": {
+          "eng": "8p23.1 duplication syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "duplication"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr8",
+            "cytoband": "p23.1",
+            "start": 6200000,
+            "end": 12700000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0098",
+      "display": {
+        "item_name": "8p23.1 deletion",
+        "disease_name": {
+          "eng": "8p23.1 deletion syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "deletion"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr8",
+            "cytoband": "p23.1",
+            "start": 6200000,
+            "end": 12700000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0099",
+      "display": {
+        "item_name": "8p11.2 deletion",
+        "disease_name": {
+          "eng": "8p11.2 deletion syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "deletion"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr8",
+            "cytoband": "p11.2",
+            "start": 36500000,
+            "end": 43100000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0100",
+      "display": {
+        "item_name": "8q12 duplication",
+        "disease_name": {
+          "eng": "8q12 microduplication syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "duplication"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr8",
+            "cytoband": "q12",
+            "start": 55500000,
+            "end": 66000000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0101",
+      "display": {
+        "item_name": "8q13 deletion",
+        "disease_name": {
+          "eng": "Mesomelia-Synostoses Syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "deletion"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr8",
+            "cytoband": "q13",
+            "start": 66000000,
+            "end": 73900000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0102",
+      "display": {
+        "item_name": "8q21.11 deletion",
+        "disease_name": {
+          "eng": "8q21.11 deletion syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "deletion"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr8",
+            "cytoband": "q21.11",
+            "start": 73900000,
+            "end": 78300000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0103",
+      "display": {
+        "item_name": "8q22.1 deletion",
+        "disease_name": {
+          "eng": "8q22.1 microdeletion syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "deletion"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr8",
+            "cytoband": "q22.1",
+            "start": 93300000,
+            "end": 99000000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0104",
+      "display": {
+        "item_name": "8q24.3 deletion",
+        "disease_name": {
+          "eng": "8q24.3 microdeletion syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "deletion"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr8",
+            "cytoband": "q24.3",
+            "start": 139900000,
+            "end": 146364022
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0105",
+      "display": {
+        "item_name": "8q duplication",
+        "disease_name": {
+          "eng": "Trisomy 8q syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "duplication"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr8",
+            "cytoband": "q",
+            "start": 45600000,
+            "end": 146364022
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0106",
+      "display": {
+        "item_name": "9p duplication",
+        "disease_name": {
+          "eng": "9p duplication syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "duplication"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr9",
+            "cytoband": "p",
+            "start": 0,
+            "end": 49000000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0107",
+      "display": {
+        "item_name": "9p deletion",
+        "disease_name": {
+          "eng": "9p deletion syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "deletion"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr9",
+            "cytoband": "p",
+            "start": 0,
+            "end": 49000000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0108",
+      "display": {
+        "item_name": "9p13 deletion",
+        "disease_name": {
+          "eng": "9p13 microdeletion syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "deletion"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr9",
+            "cytoband": "p13",
+            "start": 33200000,
+            "end": 41000000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0109",
+      "display": {
+        "item_name": "9q22.3 deletion",
+        "disease_name": {
+          "eng": "9q22.3 deletion syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "deletion"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr9",
+            "cytoband": "q22.3",
+            "start": 93900000,
+            "end": 102600000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0110",
+      "display": {
+        "item_name": "9q31.1-q31.3 deletion",
+        "disease_name": {
+          "eng": "9q31.1-q31.3 microdeletion syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "deletion"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr9",
+            "cytoband": "q31.1-q31.3",
+            "start": 102600000,
+            "end": 114900000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0111",
+      "display": {
+        "item_name": "9q34.3 deletion",
+        "disease_name": {
+          "eng": "Kleefstra syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "deletion"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr9",
+            "cytoband": "q34.3",
+            "start": 137400000,
+            "end": 141213431
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0112",
+      "display": {
+        "item_name": "9q22.2-31.1 deletion",
+        "disease_name": {
+          "eng": "Gorlin Syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "deletion"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr9",
+            "cytoband": "q22.2-q31.1",
+            "start": 91800000,
+            "end": 108200000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0113",
+      "display": {
+        "item_name": "10p duplication",
+        "disease_name": {
+          "eng": "10p duplication syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "duplication"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr10",
+            "cytoband": "p",
+            "start": 0,
+            "end": 40200000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0114",
+      "display": {
+        "item_name": "10p deletion",
+        "disease_name": {
+          "eng": "10p deletion syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "deletion"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr10",
+            "cytoband": "p",
+            "start": 0,
+            "end": 40200000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0115",
+      "display": {
+        "item_name": "10p15.3 deletion",
+        "disease_name": {
+          "eng": "Developmental delay-speech delay-seizures-behavioral abnormalities-craniofacial dysmorphism Syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "deletion"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr10",
+            "cytoband": "p15.3",
+            "start": 0,
+            "end": 3000000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0116",
+      "display": {
+        "item_name": "10p13-p14 deletion",
+        "disease_name": {
+          "eng": "10p13-p14 deletion syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "deletion"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr10",
+            "cytoband": "p13-p14",
+            "start": 6600000,
+            "end": 17300000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0117",
+      "display": {
+        "item_name": "10q22.3-q23.3 duplication",
+        "disease_name": {
+          "eng": "10q22.3-q23.3 microduplication syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "duplication"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr10",
+            "cytoband": "q22.3-q23.3",
+            "start": 77700000,
+            "end": 97000000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0118",
+      "display": {
+        "item_name": "10q22.3-q23.3 deletion",
+        "disease_name": {
+          "eng": "10q22.3-q23.3 microdeletion syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "deletion"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr10",
+            "cytoband": "q22.3-q23.3",
+            "start": 77700000,
+            "end": 97000000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0119",
+      "display": {
+        "item_name": "10q23 deletion",
+        "disease_name": {
+          "eng": "10q23 deletion syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "deletion"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr10",
+            "cytoband": "q23",
+            "start": 82000000,
+            "end": 97000000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0120",
+      "display": {
+        "item_name": "10q24 duplication",
+        "disease_name": {
+          "eng": "10q24 microduplication syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "duplication"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr10",
+            "cytoband": "q24",
+            "start": 97000000,
+            "end": 105800000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0121",
+      "display": {
+        "item_name": "10q duplication",
+        "disease_name": {
+          "eng": "10q duplication syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "duplication"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr10",
+            "cytoband": "q",
+            "start": 40200000,
+            "end": 135534747
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0122",
+      "display": {
+        "item_name": "10q deletion",
+        "disease_name": {
+          "eng": "10q deletion syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "deletion"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr10",
+            "cytoband": "q",
+            "start": 40200000,
+            "end": 135534747
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0123",
+      "display": {
+        "item_name": "11p duplication",
+        "disease_name": {
+          "eng": "11p duplication syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "duplication"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr11",
+            "cytoband": "p",
+            "start": 0,
+            "end": 53700000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0124",
+      "display": {
+        "item_name": "11p deletion",
+        "disease_name": {
+          "eng": "11p deletion syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "deletion"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr11",
+            "cytoband": "p",
+            "start": 0,
+            "end": 53700000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0125",
+      "display": {
+        "item_name": "11p15.5 duplication",
+        "disease_name": {
+          "eng": "Silver-Russell Syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "duplication"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr11",
+            "cytoband": "p15.5",
+            "start": 0,
+            "end": 2800000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0126",
+      "display": {
+        "item_name": "11p15.4 duplication",
+        "disease_name": {
+          "eng": "11p15.4 microduplication syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "duplication"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr11",
+            "cytoband": "p15.4",
+            "start": 2800000,
+            "end": 10700000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0127",
+      "display": {
+        "item_name": "11p11.2 deletion",
+        "disease_name": {
+          "eng": "WAGR syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "deletion"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr11",
+            "cytoband": "p11.2",
+            "start": 43500000,
+            "end": 48800000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0128",
+      "display": {
+        "item_name": "11q22.2-q22.3 deletion",
+        "disease_name": {
+          "eng": "11q22.2-q22.3 microdeletion syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "deletion"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr11",
+            "cytoband": "q22.2-q22.3",
+            "start": 102100000,
+            "end": 110400000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0129",
+      "display": {
+        "item_name": "11q23 deletion",
+        "disease_name": {
+          "eng": "11q23 deletion syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "deletion"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr11",
+            "cytoband": "q23",
+            "start": 110400000,
+            "end": 121200000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0130",
+      "display": {
+        "item_name": "11q duplication",
+        "disease_name": {
+          "eng": "11q duplication syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "duplication"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr11",
+            "cytoband": "q",
+            "start": 53700000,
+            "end": 135006516
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0131",
+      "display": {
+        "item_name": "11q deletion",
+        "disease_name": {
+          "eng": "11q deletion syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "deletion"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr11",
+            "cytoband": "q",
+            "start": 53700000,
+            "end": 135006516
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0132",
+      "display": {
+        "item_name": "12p duplication",
+        "disease_name": {
+          "eng": "Trisomy 12p syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "duplication"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr12",
+            "cytoband": "p",
+            "start": 0,
+            "end": 35800000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0133",
+      "display": {
+        "item_name": "12p deletion",
+        "disease_name": {
+          "eng": "12p deletion syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "deletion"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr12",
+            "cytoband": "p",
+            "start": 0,
+            "end": 35800000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0134",
+      "display": {
+        "item_name": "12p12.1 deletion",
+        "disease_name": {
+          "eng": "12p12.1 microdeletion syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "deletion"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr12",
+            "cytoband": "p12.1",
+            "start": 21300000,
+            "end": 26500000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0135",
+      "display": {
+        "item_name": "12q15-q21 deletion",
+        "disease_name": {
+          "eng": "12q15-q21 microdeletion syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "deletion"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr12",
+            "cytoband": "q15-q21",
+            "start": 67700000,
+            "end": 92600000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0136",
+      "display": {
+        "item_name": "12q14 deletion",
+        "disease_name": {
+          "eng": "12q14 microdeletion syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "deletion"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr12",
+            "cytoband": "q14",
+            "start": 58100000,
+            "end": 67700000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0137",
+      "display": {
+        "item_name": "12q duplication",
+        "disease_name": {
+          "eng": "12q duplication syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "duplication"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr12",
+            "cytoband": "q",
+            "start": 35800000,
+            "end": 133851895
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0138",
+      "display": {
+        "item_name": "12q deletion",
+        "disease_name": {
+          "eng": "12q deletion syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "deletion"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr12",
+            "cytoband": "q",
+            "start": 35800000,
+            "end": 133851895
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0139",
+      "display": {
+        "item_name": "13q duplication",
+        "disease_name": {
+          "eng": "13q duplication syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "duplication"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr13",
+            "cytoband": "q",
+            "start": 17900000,
+            "end": 115169878
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0140",
+      "display": {
+        "item_name": "13q12.3 deletion",
+        "disease_name": {
+          "eng": "13q12.3 microdeletion syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "deletion"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr13",
+            "cytoband": "q12.3",
+            "start": 28900000,
+            "end": 32200000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0141",
+      "display": {
+        "item_name": "13q14 deletion",
+        "disease_name": {
+          "eng": "Trisomy 13q14 syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "deletion"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr13",
+            "cytoband": "q14",
+            "start": 40100000,
+            "end": 55300000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0142",
+      "display": {
+        "item_name": "13q34 deletion",
+        "disease_name": {
+          "eng": "Trisomy 13q34 syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "deletion"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr13",
+            "cytoband": "q34",
+            "start": 110300000,
+            "end": 115169878
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0143",
+      "display": {
+        "item_name": "13q deletion",
+        "disease_name": {
+          "eng": "13q deletion syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "deletion"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr13",
+            "cytoband": "q",
+            "start": 17900000,
+            "end": 115169878
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0144",
+      "display": {
+        "item_name": "14q11-q22 deletion",
+        "disease_name": {
+          "eng": "14q11-q22 deletion syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "deletion"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr14",
+            "cytoband": "q11-q22",
+            "start": 17600000,
+            "end": 58100000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0145",
+      "display": {
+        "item_name": "14q11.2 deletion",
+        "disease_name": {
+          "eng": "14q11.2 microdeletion syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "deletion"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr14",
+            "cytoband": "q11.2",
+            "start": 19100000,
+            "end": 24600000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0146",
+      "display": {
+        "item_name": "14q11.2 duplication",
+        "disease_name": {
+          "eng": "14q11.2 microduplication syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "duplication"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr14",
+            "cytoband": "q11.2",
+            "start": 19100000,
+            "end": 24600000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0147",
+      "display": {
+        "item_name": "14q12 duplication",
+        "disease_name": {
+          "eng": "14q12 duplication syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "duplication"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr14",
+            "cytoband": "q12",
+            "start": 24600000,
+            "end": 33300000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0148",
+      "display": {
+        "item_name": "14q22 deletion",
+        "disease_name": {
+          "eng": "14q22 microdeletion syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "deletion"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr14",
+            "cytoband": "q22",
+            "start": 50900000,
+            "end": 58100000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0149",
+      "display": {
+        "item_name": "14q22-q23 deletion",
+        "disease_name": {
+          "eng": "14q22-q23 microdeletion syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "deletion"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr14",
+            "cytoband": "q22-q23",
+            "start": 50900000,
+            "end": 67900000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0150",
+      "display": {
+        "item_name": "14q24.1-q24.3 deletion",
+        "disease_name": {
+          "eng": "14q24.1-q24.3 microdeletion syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "deletion"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr14",
+            "cytoband": "q24.1-q24.3",
+            "start": 67900000,
+            "end": 79300000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0151",
+      "display": {
+        "item_name": "14q31-q32 deletion",
+        "disease_name": {
+          "eng": "14q31-q32 deletion syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "deletion"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr14",
+            "cytoband": "q31-q32",
+            "start": 79300000,
+            "end": 107349540
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0152",
+      "display": {
+        "item_name": "14q32 deletion",
+        "disease_name": {
+          "eng": "14q32 deletion syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "deletion"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr14",
+            "cytoband": "q32",
+            "start": 89800000,
+            "end": 107349540
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0153",
+      "display": {
+        "item_name": "14q32 duplication",
+        "disease_name": {
+          "eng": "14q32 duplication syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "duplication"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr14",
+            "cytoband": "q32",
+            "start": 89800000,
+            "end": 107349540
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0154",
+      "display": {
+        "item_name": "14q deletion",
+        "disease_name": {
+          "eng": "14q deletion syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "deletion"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr14",
+            "cytoband": "q",
+            "start": 17600000,
+            "end": 107349540
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0155",
+      "display": {
+        "item_name": "14q duplication",
+        "disease_name": {
+          "eng": "14q duplication syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "duplication"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr14",
+            "cytoband": "q",
+            "start": 17600000,
+            "end": 107349540
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0156",
+      "display": {
+        "item_name": "15p13.3 deletion",
+        "disease_name": {
+          "eng": "15p13.3 deletion syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "deletion"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr15",
+            "cytoband": "p13.3",
+            "start": 0,
+            "end": 3900000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0157",
+      "display": {
+        "item_name": "15q11.2 deletion",
+        "disease_name": {
+          "eng": "15q11.2 microdeletion syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "deletion"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr15",
+            "cytoband": "q11.2",
+            "start": 20700000,
+            "end": 25700000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0158",
+      "display": {
+        "item_name": "15q11.2-13.1 duplication",
+        "disease_name": {
+          "eng": "15q11.2-13.1 duplication syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "duplication"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr15",
+            "cytoband": "q11.2-q13.1",
+            "start": 20700000,
+            "end": 30300000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0159",
+      "display": {
+        "item_name": "15q13.3 deletion",
+        "disease_name": {
+          "eng": "15q13.3 microdeletion syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "deletion"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr15",
+            "cytoband": "q13.3",
+            "start": 31200000,
+            "end": 33600000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0160",
+      "display": {
+        "item_name": "15q14 deletion",
+        "disease_name": {
+          "eng": "15q14 microdeletion syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "deletion"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr15",
+            "cytoband": "q14",
+            "start": 33600000,
+            "end": 40100000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0161",
+      "display": {
+        "item_name": "15q24 deletion",
+        "disease_name": {
+          "eng": "15q24 microdeletion syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "deletion"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr15",
+            "cytoband": "q24",
+            "start": 72700000,
+            "end": 78300000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0162",
+      "display": {
+        "item_name": "15q duplication",
+        "disease_name": {
+          "eng": "15q duplication syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "duplication"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr15",
+            "cytoband": "q",
+            "start": 19000000,
+            "end": 102531392
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0163",
+      "display": {
+        "item_name": "15q deletion",
+        "disease_name": {
+          "eng": "15q deletion syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "deletion"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr15",
+            "cytoband": "q",
+            "start": 19000000,
+            "end": 102531392
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0164",
+      "display": {
+        "item_name": "16p duplication",
+        "disease_name": {
+          "eng": "16p duplication syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "duplication"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr16",
+            "cytoband": "p",
+            "start": 0,
+            "end": 36600000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0165",
+      "display": {
+        "item_name": "16p deletion",
+        "disease_name": {
+          "eng": "16p deletion syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "deletion"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr16",
+            "cytoband": "p",
+            "start": 0,
+            "end": 36600000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0166",
+      "display": {
+        "item_name": "16p13.11 duplication",
+        "disease_name": {
+          "eng": "16p13.11 microduplication syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "duplication"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr16",
+            "cytoband": "p13.11",
+            "start": 14800000,
+            "end": 16800000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0167",
+      "display": {
+        "item_name": "16p13.11 deletion",
+        "disease_name": {
+          "eng": "16p13.11 microdeletion syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "deletion"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr16",
+            "cytoband": "p13.11",
+            "start": 14800000,
+            "end": 16800000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0168",
+      "display": {
+        "item_name": "16p13.3 deletion",
+        "disease_name": {
+          "eng": "16p13.3 deletion syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "deletion"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr16",
+            "cytoband": "p13.3",
+            "start": 0,
+            "end": 7900000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0169",
+      "display": {
+        "item_name": "16p13.3 duplication",
+        "disease_name": {
+          "eng": "16p13.3 microduplication syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "duplication"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr16",
+            "cytoband": "p13.3",
+            "start": 0,
+            "end": 7900000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0170",
+      "display": {
+        "item_name": "16p13.2 deletion",
+        "disease_name": {
+          "eng": "16p13.2 deletion syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "deletion"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr16",
+            "cytoband": "p13.2",
+            "start": 7900000,
+            "end": 10500000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0171",
+      "display": {
+        "item_name": "16p11.2 deletion",
+        "disease_name": {
+          "eng": "16p11.2 microdeletion syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "deletion"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr16",
+            "cytoband": "p11.2",
+            "start": 28100000,
+            "end": 34600000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0172",
+      "display": {
+        "item_name": "16p11.2-p12.2 duplication",
+        "disease_name": {
+          "eng": "16p11.2-p12.2 microduplication syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "duplication"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr16",
+            "cytoband": "p11.2-p12.2",
+            "start": 21200000,
+            "end": 34600000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0173",
+      "display": {
+        "item_name": "16q24.1 deletion",
+        "disease_name": {
+          "eng": "16q24.1 microdeletion syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "deletion"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr16",
+            "cytoband": "q24.1",
+            "start": 84200000,
+            "end": 87100000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0174",
+      "display": {
+        "item_name": "16q24.3 deletion",
+        "disease_name": {
+          "eng": "16q24.3 microdeletion syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "deletion"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr16",
+            "cytoband": "q24.3",
+            "start": 88700000,
+            "end": 90354753
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0175",
+      "display": {
+        "item_name": "16q22 deletion",
+        "disease_name": {
+          "eng": "16q22 deletion syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "deletion"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr16",
+            "cytoband": "q22",
+            "start": 66700000,
+            "end": 74100000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0176",
+      "display": {
+        "item_name": "16q deletion",
+        "disease_name": {
+          "eng": "16q deletion syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "deletion"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr16",
+            "cytoband": "q",
+            "start": 36600000,
+            "end": 90354753
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0177",
+      "display": {
+        "item_name": "17q duplication",
+        "disease_name": {
+          "eng": "17q duplication syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "duplication"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr17",
+            "cytoband": "q",
+            "start": 24000000,
+            "end": 81195210
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0178",
+      "display": {
+        "item_name": "17q24.2-q24.3 deletion",
+        "disease_name": {
+          "eng": "17q24.2-q24.3 deletion syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "deletion"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr17",
+            "cytoband": "q24.2-q24.3",
+            "start": 64200000,
+            "end": 70900000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0179",
+      "display": {
+        "item_name": "17q24.2 deletion",
+        "disease_name": {
+          "eng": "17q24.2 deletion syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "deletion"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr17",
+            "cytoband": "q24.2",
+            "start": 64200000,
+            "end": 67100000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0180",
+      "display": {
+        "item_name": "17q23.1-q23.2 deletion",
+        "disease_name": {
+          "eng": "17q23.1-q23.2 microdeletion syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "deletion"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr17",
+            "cytoband": "q23.1-q23.2",
+            "start": 57600000,
+            "end": 61100000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0181",
+      "display": {
+        "item_name": "17q21.31 deletion",
+        "disease_name": {
+          "eng": "17q21.31 microdeletion syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "deletion"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr17",
+            "cytoband": "q21.31",
+            "start": 40900000,
+            "end": 44900000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0182",
+      "display": {
+        "item_name": "17q21.31 duplication",
+        "disease_name": {
+          "eng": "17q21.31 microduplication syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "duplication"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr17",
+            "cytoband": "q21.31",
+            "start": 40900000,
+            "end": 44900000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0183",
+      "display": {
+        "item_name": "17q12 duplication",
+        "disease_name": {
+          "eng": "17q12 duplication syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "duplication"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr17",
+            "cytoband": "q12",
+            "start": 31800000,
+            "end": 38100000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0184",
+      "display": {
+        "item_name": "17q12 deletion",
+        "disease_name": {
+          "eng": "17q12 deletion syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "deletion"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr17",
+            "cytoband": "q12",
+            "start": 31800000,
+            "end": 38100000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0185",
+      "display": {
+        "item_name": "17q11 deletion",
+        "disease_name": {
+          "eng": "17q11 microdeletion syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "deletion"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr17",
+            "cytoband": "q11",
+            "start": 24000000,
+            "end": 31800000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0186",
+      "display": {
+        "item_name": "17q11.2 duplication",
+        "disease_name": {
+          "eng": "17q11.2 microduplication syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "duplication"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr17",
+            "cytoband": "q11.2",
+            "start": 25800000,
+            "end": 31800000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0187",
+      "display": {
+        "item_name": "17p11.2 deletion",
+        "disease_name": {
+          "eng": "Smith-Magenis syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "deletion"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr17",
+            "cytoband": "p11.2",
+            "start": 16000000,
+            "end": 22200000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0188",
+      "display": {
+        "item_name": "17p11.2 duplication",
+        "disease_name": {
+          "eng": "Potocki-Lupski syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "duplication"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr17",
+            "cytoband": "p11.2",
+            "start": 16000000,
+            "end": 22200000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0189",
+      "display": {
+        "item_name": "17p12 deletion",
+        "disease_name": {
+          "eng": "17p12 deletion syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "deletion"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr17",
+            "cytoband": "p12",
+            "start": 10700000,
+            "end": 16000000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0190",
+      "display": {
+        "item_name": "17p12 duplication",
+        "disease_name": {
+          "eng": "Charcot-Marie-Tooth disease type 1A"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "duplication"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr17",
+            "cytoband": "p12",
+            "start": 10700000,
+            "end": 16000000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0191",
+      "display": {
+        "item_name": "17p13.3 deletion",
+        "disease_name": {
+          "eng": "Miller-Dieker syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "deletion"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr17",
+            "cytoband": "p13.3",
+            "start": 0,
+            "end": 3300000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0192",
+      "display": {
+        "item_name": "17p13.3 duplication",
+        "disease_name": {
+          "eng": "17p13.3 microduplication syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "duplication"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr17",
+            "cytoband": "p13.3",
+            "start": 0,
+            "end": 3300000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0193",
+      "display": {
+        "item_name": "17p13.1 deletion",
+        "disease_name": {
+          "eng": "17p13.1 deletion syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "deletion"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr17",
+            "cytoband": "p13.1",
+            "start": 6500000,
+            "end": 10700000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0194",
+      "display": {
+        "item_name": "17p duplication",
+        "disease_name": {
+          "eng": "17p duplication syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "duplication"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr17",
+            "cytoband": "p",
+            "start": 0,
+            "end": 24000000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0195",
+      "display": {
+        "item_name": "18p deletion",
+        "disease_name": {
+          "eng": "18p deletion syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "deletion"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr18",
+            "cytoband": "p",
+            "start": 0,
+            "end": 17200000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0196",
+      "display": {
+        "item_name": "18p duplication",
+        "disease_name": {
+          "eng": "18p duplication syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "duplication"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr18",
+            "cytoband": "p",
+            "start": 0,
+            "end": 17200000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0197",
+      "display": {
+        "item_name": "18q deletion",
+        "disease_name": {
+          "eng": "18q deletion syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "deletion"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr18",
+            "cytoband": "q",
+            "start": 17200000,
+            "end": 78077248
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0198",
+      "display": {
+        "item_name": "19p deletion",
+        "disease_name": {
+          "eng": "19p deletion syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "deletion"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr19",
+            "cytoband": "p",
+            "start": 0,
+            "end": 26500000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0199",
+      "display": {
+        "item_name": "19p duplication",
+        "disease_name": {
+          "eng": "19p duplication syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "duplication"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr19",
+            "cytoband": "p",
+            "start": 0,
+            "end": 26500000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0200",
+      "display": {
+        "item_name": "19p13.2 deletion",
+        "disease_name": {
+          "eng": "19p13.2 microdeletion syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "deletion"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr19",
+            "cytoband": "p13.2",
+            "start": 6900000,
+            "end": 13900000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0201",
+      "display": {
+        "item_name": "19p13.13 deletion",
+        "disease_name": {
+          "eng": "19p13.13 microdeletion syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "deletion"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr19",
+            "cytoband": "p13.13",
+            "start": 13900000,
+            "end": 14000000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0202",
+      "display": {
+        "item_name": "19p13.12 deletion",
+        "disease_name": {
+          "eng": "19p13.12 microdeletion syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "deletion"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr19",
+            "cytoband": "p13.12",
+            "start": 14000000,
+            "end": 16300000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0203",
+      "display": {
+        "item_name": "19p13.3 duplication",
+        "disease_name": {
+          "eng": "19p13.3 microduplication syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "duplication"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr19",
+            "cytoband": "p13.3",
+            "start": 0,
+            "end": 6900000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0204",
+      "display": {
+        "item_name": "19q13.11 deletion",
+        "disease_name": {
+          "eng": "19q13.11 microdeletion syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "deletion"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr19",
+            "cytoband": "q13.11",
+            "start": 32400000,
+            "end": 35500000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0205",
+      "display": {
+        "item_name": "19q duplication",
+        "disease_name": {
+          "eng": "19q duplication syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "duplication"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr19",
+            "cytoband": "q",
+            "start": 26500000,
+            "end": 59128983
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0206",
+      "display": {
+        "item_name": "20p duplication",
+        "disease_name": {
+          "eng": "20p duplication syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "duplication"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr20",
+            "cytoband": "p",
+            "start": 0,
+            "end": 27500000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0207",
+      "display": {
+        "item_name": "20p deletion",
+        "disease_name": {
+          "eng": "20p deletion syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "deletion"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr20",
+            "cytoband": "p",
+            "start": 0,
+            "end": 27500000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0208",
+      "display": {
+        "item_name": "20p12 deletion",
+        "disease_name": {
+          "eng": "Alagille syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "deletion"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr20",
+            "cytoband": "p12",
+            "start": 5100000,
+            "end": 17900000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0209",
+      "display": {
+        "item_name": "20p12.3 deletion",
+        "disease_name": {
+          "eng": "20p12.3 microdeletion syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "deletion"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr20",
+            "cytoband": "p12.3",
+            "start": 5100000,
+            "end": 9200000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0210",
+      "display": {
+        "item_name": "20q13.2 deletion",
+        "disease_name": {
+          "eng": "Okihiro Syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "deletion"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr20",
+            "cytoband": "q13.2",
+            "start": 49800000,
+            "end": 55000000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0211",
+      "display": {
+        "item_name": "20q13.33 deletion",
+        "disease_name": {
+          "eng": "20q13.33 microdeletion syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "deletion"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr20",
+            "cytoband": "q13.33",
+            "start": 58400000,
+            "end": 63025520
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0212",
+      "display": {
+        "item_name": "20q11.2 duplication",
+        "disease_name": {
+          "eng": "20q11.2 microduplication syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "duplication"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr20",
+            "cytoband": "q11.2",
+            "start": 29400000,
+            "end": 37600000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0213",
+      "display": {
+        "item_name": "20q11.2 deletion",
+        "disease_name": {
+          "eng": "20q11.2 microdeletion syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "deletion"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr20",
+            "cytoband": "q11.2",
+            "start": 29400000,
+            "end": 37600000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0214",
+      "display": {
+        "item_name": "20q duplication",
+        "disease_name": {
+          "eng": "20q duplication syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "duplication"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr20",
+            "cytoband": "q",
+            "start": 27500000,
+            "end": 63025520
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0215",
+      "display": {
+        "item_name": "21q deletion",
+        "disease_name": {
+          "eng": "21q deletion syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "deletion"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr21",
+            "cytoband": "q",
+            "start": 13200000,
+            "end": 48129895
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0216",
+      "display": {
+        "item_name": "21q22.11-q22.12 deletion",
+        "disease_name": {
+          "eng": "21q22.11-q22.12 microdeletion syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "deletion"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr21",
+            "cytoband": "q22.11-q22.12",
+            "start": 31500000,
+            "end": 37800000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0217",
+      "display": {
+        "item_name": "21q22.13 deletion",
+        "disease_name": {
+          "eng": "DYRK1A syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "deletion"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr21",
+            "cytoband": "q22.13",
+            "start": 37800000,
+            "end": 39700000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0218",
+      "display": {
+        "item_name": "22p duplication",
+        "disease_name": {
+          "eng": "22p duplication syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "duplication"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr22",
+            "cytoband": "p",
+            "start": 0,
+            "end": 14700000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0219",
+      "display": {
+        "item_name": "22p deletion",
+        "disease_name": {
+          "eng": "22p deletion syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "deletion"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr22",
+            "cytoband": "p",
+            "start": 0,
+            "end": 14700000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0220",
+      "display": {
+        "item_name": "22q11 duplication",
+        "disease_name": {
+          "eng": "Cat eye syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "duplication"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr22",
+            "cytoband": "q11",
+            "start": 14700000,
+            "end": 25900000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0221",
+      "display": {
+        "item_name": "22q11.2 duplication",
+        "disease_name": {
+          "eng": "22q11.2 duplication syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "duplication"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr22",
+            "cytoband": "q11.2",
+            "start": 17900000,
+            "end": 25900000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0222",
+      "display": {
+        "item_name": "22q duplication",
+        "disease_name": {
+          "eng": "22q duplication syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "duplication"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr22",
+            "cytoband": "q",
+            "start": 14700000,
+            "end": 51304566
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0223",
+      "display": {
+        "item_name": "22q deletion",
+        "disease_name": {
+          "eng": "22q deletion syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "deletion"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chr22",
+            "cytoband": "q",
+            "start": 14700000,
+            "end": 51304566
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0224",
+      "display": {
+        "item_name": "Xp22.13-p22.2 duplication",
+        "disease_name": {
+          "eng": "Xp22.13-p22.2 duplication syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "duplication"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chrX",
+            "cytoband": "p22",
+            "start": 0,
+            "end": 24900000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0225",
+      "display": {
+        "item_name": "Xp21 deletion",
+        "disease_name": {
+          "eng": "Xp21 deletion syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "deletion"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chrX",
+            "cytoband": "p21",
+            "start": 24900000,
+            "end": 37600000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0226",
+      "display": {
+        "item_name": "Xp11.22-p11.23 duplication",
+        "disease_name": {
+          "eng": "Xp11.22-p11.23 microduplication syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "duplication"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chrX",
+            "cytoband": "p11.22-p11.23",
+            "start": 46400000,
+            "end": 54800000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0227",
+      "display": {
+        "item_name": "Xq21 deletion",
+        "disease_name": {
+          "eng": "Xq21 microdeletion syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "deletion"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chrX",
+            "cytoband": "q21",
+            "start": 76000000,
+            "end": 98300000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0228",
+      "display": {
+        "item_name": "Xq22.3 deletion",
+        "disease_name": {
+          "eng": "X-linked syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "deletion"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chrX",
+            "cytoband": "q22.3",
+            "start": 103700000,
+            "end": 108700000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0229",
+      "display": {
+        "item_name": "Xq25 duplication",
+        "disease_name": {
+          "eng": "Xq25 microduplication syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "duplication"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chrX",
+            "cytoband": "q25",
+            "start": 120900000,
+            "end": 128700000
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0230",
+      "display": {
+        "item_name": "Xq27.3-q28 duplication",
+        "disease_name": {
+          "eng": "Xq27.3-q28 duplication syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "duplication"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chrX",
+            "cytoband": "q27.3-q28",
+            "start": 142100000,
+            "end": 155270560
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0231",
+      "display": {
+        "item_name": "Xq28 duplication",
+        "disease_name": {
+          "eng": "Xq28 microduplication syndrome"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "duplication"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chrX",
+            "cytoband": "q28",
+            "start": 147100000,
+            "end": 155270560
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "I-CNV0232",
+      "display": {
+        "item_name": "Yq11 deletion",
+        "disease_name": {
+          "eng": "Azoospermia"
+        }
+      },
+      "classification": {
+        "category": "partial_cnv",
+        "consequence": "deletion"
+      },
+      "match_definition": {
+        "method": "genomic_interval",
+        "assembly": "GRCh37",
+        "coordinate_system": "0-based-half-open",
+        "regions": [
+          {
+            "chromosome": "chrY",
+            "cytoband": "q11",
+            "start": 12500000,
+            "end": 28800000
+          }
+        ]
+      }
+    }
+  ]
+}

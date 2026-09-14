@@ -1,0 +1,167 @@
+@import 'tailwindcss';
+@import 'tw-animate-css';
+@import 'shadcn/tailwind.css';
+
+@custom-variant dark (&:is(.dark *));
+
+@font-face {
+  font-family: 'Pretendard Variable';
+  src: url('/fonts/pretendard/PretendardVariable.woff2')
+    format('woff2-variations');
+  font-weight: 45 920;
+  font-style: normal;
+  font-display: swap;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans:
+    'Pretendard Variable', Pretendard, -apple-system, BlinkMacSystemFont,
+    'Segoe UI', sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, monospace;
+  --font-heading: var(--font-sans);
+  --color-sidebar-ring: var(--sidebar-ring);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar: var(--sidebar);
+  --color-chart-5: var(--chart-5);
+  --color-chart-4: var(--chart-4);
+  --color-chart-3: var(--chart-3);
+  --color-chart-2: var(--chart-2);
+  --color-chart-1: var(--chart-1);
+  --color-ring: var(--ring);
+  --color-input: var(--input);
+  --color-border: var(--border);
+  --color-destructive: var(--destructive);
+  --color-positive: var(--positive);
+  --color-success: var(--success);
+  --color-warning: var(--warning);
+  --color-info: var(--info);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-accent: var(--accent);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-muted: var(--muted);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-secondary: var(--secondary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-primary: var(--primary);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-popover: var(--popover);
+  --color-card-foreground: var(--card-foreground);
+  --color-card: var(--card);
+  --radius-sm: calc(var(--radius) * 0.6);
+  --radius-md: calc(var(--radius) * 0.8);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) * 1.4);
+  --radius-2xl: calc(var(--radius) * 1.8);
+  --radius-3xl: calc(var(--radius) * 2.2);
+  --radius-4xl: calc(var(--radius) * 2.6);
+}
+
+:root {
+  --background: #f5f7fb;
+  --foreground: #20233c;
+  --card: #ffffff;
+  --card-foreground: #20233c;
+  --popover: #ffffff;
+  --popover-foreground: #20233c;
+  --primary: #4f46e5;
+  --primary-foreground: #ffffff;
+  --secondary: #eceefe;
+  --secondary-foreground: #3730a3;
+  --muted: #edf0f6;
+  --muted-foreground: #667085;
+  --accent: #e7f6f9;
+  --accent-foreground: #0e6576;
+  --destructive: #dc2626;
+  --positive: #a21caf;
+  --success: #059669;
+  --warning: #d97706;
+  --info: #0891b2;
+  --border: #dce2ec;
+  --input: #dce2ec;
+  --ring: #6366f1;
+  --chart-1: #4f46e5;
+  --chart-2: #0891b2;
+  --chart-3: #059669;
+  --chart-4: #d97706;
+  --chart-5: #a21caf;
+  --radius: 0.65rem;
+  --sidebar: #181b3a;
+  --sidebar-foreground: #f2f3ff;
+  --sidebar-primary: #4f46e5;
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-accent: #252a50;
+  --sidebar-accent-foreground: #ffffff;
+  --sidebar-border: rgb(255 255 255 / 10%);
+  --sidebar-ring: #818cf8;
+}
+
+.dark {
+  --background: #111328;
+  --foreground: #f3f4ff;
+  --card: #181b3a;
+  --card-foreground: #f3f4ff;
+  --popover: #181b3a;
+  --popover-foreground: #f3f4ff;
+  --primary: #818cf8;
+  --primary-foreground: #111328;
+  --secondary: #252a50;
+  --secondary-foreground: #eef0ff;
+  --muted: #202442;
+  --muted-foreground: #a7afc4;
+  --accent: #173a4a;
+  --accent-foreground: #bcebf3;
+  --destructive: #f87171;
+  --positive: #d946ef;
+  --success: #34d399;
+  --warning: #fbbf24;
+  --info: #22d3ee;
+  --border: rgb(255 255 255 / 12%);
+  --input: rgb(255 255 255 / 15%);
+  --ring: #818cf8;
+  --sidebar: #0d0f22;
+  --sidebar-foreground: #f2f3ff;
+  --sidebar-primary: #6366f1;
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-accent: #1c2040;
+  --sidebar-accent-foreground: #ffffff;
+  --sidebar-border: rgb(255 255 255 / 10%);
+  --sidebar-ring: #818cf8;
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  html {
+    @apply font-sans;
+  }
+  body {
+    @apply bg-background text-foreground;
+    min-width: 1024px;
+    font-family:
+      'Pretendard Variable',
+      Pretendard,
+      -apple-system,
+      BlinkMacSystemFont,
+      'Segoe UI',
+      sans-serif;
+  }
+  button,
+  [role='button'] {
+    cursor: pointer;
+  }
+  [data-slot='table-row'] {
+    min-height: 44px;
+  }
+  [data-slot='table-cell'],
+  [data-slot='table-head'] {
+    height: 44px;
+  }
+}

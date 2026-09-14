@@ -1,0 +1,346 @@
+{
+  "schema_version": 1,
+  "seed_version": "2026-09-02.2",
+  "display_timezone": "Asia/Seoul",
+  "sample_type_definitions": [
+    {
+      "raw_value": "Singleton",
+      "classification": "ACTUAL",
+      "description": "Singleton sample"
+    },
+    {
+      "raw_value": "Twin",
+      "classification": "ACTUAL",
+      "description": "Twin sample"
+    },
+    {
+      "raw_value": "Control",
+      "classification": "CONTROL",
+      "description": "Control with known sex and aneuploidy classification"
+    },
+    {
+      "raw_value": "NTC",
+      "classification": "NTC",
+      "description": "No Template Control without DNA"
+    },
+    {
+      "raw_value": "Not Specified",
+      "classification": "OTHER_UNCLASSIFIED",
+      "description": "Sample type not provided"
+    },
+    {
+      "raw_value": "__OTHER__",
+      "classification": "OTHER_UNCLASSIFIED",
+      "description": "Currently undefined value"
+    }
+  ],
+  "sample_classification_resolution_policy": {
+    "source_sample_type_is_immutable": true,
+    "unclassified_source_values": [
+      "Not Specified",
+      "__OTHER__"
+    ],
+    "initial_status": "RESOLUTION_REQUIRED",
+    "blocks_all_run_approvals": true,
+    "allowed_operational_classifications": [
+      "ACTUAL",
+      "CONTROL",
+      "NTC"
+    ],
+    "requires_operator_reason": true,
+    "records_user_timestamp_source_revision_and_previous_value": true,
+    "classification_change_after_approval": "REAPPROVAL_REQUIRED"
+  },
+  "qc_flag_definitions": [
+    {
+      "raw_value": "PASS",
+      "official_qc_outcome": "REPORTABLE_PASS",
+      "reportable": true,
+      "population": "ACTUAL"
+    },
+    {
+      "raw_value": "WARNING",
+      "official_qc_outcome": "REPORTABLE_WARNING",
+      "reportable": true,
+      "population": "ACTUAL"
+    },
+    {
+      "raw_value": "FAIL",
+      "official_qc_outcome": "NON_REPORTABLE_FAIL",
+      "reportable": false,
+      "population": "ACTUAL"
+    },
+    {
+      "raw_value": "CANCELLED",
+      "official_qc_outcome": "NON_REPORTABLE_CANCELLED",
+      "reportable": false,
+      "population": "ACTUAL"
+    },
+    {
+      "raw_value": "INVALIDATED",
+      "official_qc_outcome": "NON_REPORTABLE_INVALIDATED",
+      "reportable": false,
+      "population": "ACTUAL"
+    },
+    {
+      "raw_value": "NTC_PASS",
+      "official_qc_outcome": "CONTROL_NTC_PASS",
+      "reportable": false,
+      "population": "NTC"
+    },
+    {
+      "raw_value": "__OTHER__",
+      "official_qc_outcome": "OTHER",
+      "reportable": null,
+      "population": "UNKNOWN"
+    }
+  ],
+  "unknown_qc_flag_policy": {
+    "values": [
+      "BLANK",
+      "__OTHER__"
+    ],
+    "preserve_raw_value": true,
+    "official_qc_outcome": "OTHER",
+    "blocks_all_run_approvals": true,
+    "manual_override_allowed": false,
+    "resolution": "Import corrected source as a new run revision"
+  },
+  "qc_reference": {
+    "document": "VeriSeq NIPT Solution v2 Software Guide",
+    "document_number": "1000000067940 v09",
+    "document_date": "May 2025"
+  },
+  "qc_parameters": [
+    {
+      "name": "fetal_fraction",
+      "source": "supplementary_report",
+      "scope": "sample",
+      "numeric_type": "number",
+      "valid_range": {
+        "lower": 0,
+        "lower_inclusive": false,
+        "upper": 1,
+        "upper_inclusive": false
+      },
+      "official_boundary": null,
+      "distribution_evaluation": "IQR_OUTLIER"
+    },
+    {
+      "name": "frag_size_dist",
+      "source": "supplementary_report",
+      "scope": "sample",
+      "numeric_type": "number",
+      "valid_range": {
+        "lower": 0,
+        "lower_inclusive": false,
+        "upper": null,
+        "upper_inclusive": null
+      },
+      "official_boundary": null,
+      "distribution_evaluation": "IQR_OUTLIER"
+    },
+    {
+      "name": "non_excluded_sites",
+      "source": "supplementary_report",
+      "scope": "sample",
+      "numeric_type": "integer",
+      "valid_range": null,
+      "official_boundary": {
+        "lower": 2000000,
+        "lower_inclusive": false,
+        "upper": 60000000,
+        "upper_inclusive": false
+      },
+      "distribution_evaluation": "OFFICIAL_BOUNDARY"
+    },
+    {
+      "name": "cluster_density",
+      "source": "sequencing_report",
+      "scope": "run_flowcell",
+      "numeric_type": "number",
+      "valid_range": null,
+      "official_boundary": {
+        "lower": 152000,
+        "lower_inclusive": true,
+        "upper": 338000,
+        "upper_inclusive": true
+      },
+      "distribution_evaluation": "OFFICIAL_BOUNDARY"
+    },
+    {
+      "name": "pct_q30",
+      "source": "sequencing_report",
+      "scope": "run_flowcell",
+      "numeric_type": "number",
+      "valid_range": null,
+      "official_boundary": null,
+      "distribution_evaluation": "IQR_OUTLIER"
+    },
+    {
+      "name": "pct_pf",
+      "source": "sequencing_report",
+      "scope": "run_flowcell",
+      "numeric_type": "number",
+      "valid_range": null,
+      "official_boundary": {
+        "lower": 50,
+        "lower_inclusive": true,
+        "upper": null,
+        "upper_inclusive": null
+      },
+      "distribution_evaluation": "OFFICIAL_BOUNDARY"
+    },
+    {
+      "name": "phasing",
+      "source": "sequencing_report",
+      "scope": "run_flowcell",
+      "numeric_type": "number",
+      "valid_range": null,
+      "official_boundary": {
+        "lower": null,
+        "lower_inclusive": null,
+        "upper": 0.004,
+        "upper_inclusive": true
+      },
+      "distribution_evaluation": "OFFICIAL_BOUNDARY"
+    },
+    {
+      "name": "prephasing",
+      "source": "sequencing_report",
+      "scope": "run_flowcell",
+      "numeric_type": "number",
+      "valid_range": null,
+      "official_boundary": {
+        "lower": null,
+        "lower_inclusive": null,
+        "upper": 0.003,
+        "upper_inclusive": true
+      },
+      "distribution_evaluation": "OFFICIAL_BOUNDARY"
+    },
+    {
+      "name": "predicted_aligned_reads",
+      "source": "sequencing_report",
+      "scope": "run_flowcell",
+      "numeric_type": "integer",
+      "valid_range": null,
+      "official_boundary": {
+        "lower": 4000000,
+        "lower_inclusive": true,
+        "upper": null,
+        "upper_inclusive": null
+      },
+      "distribution_evaluation": "OFFICIAL_BOUNDARY"
+    }
+  ],
+  "documented_boundary_status": {
+    "metric_names": [
+      "non_excluded_sites",
+      "cluster_density",
+      "pct_pf",
+      "phasing",
+      "prephasing",
+      "predicted_aligned_reads"
+    ],
+    "precedence": [
+      "FAIL",
+      "INCOMPLETE",
+      "PASS"
+    ],
+    "rule": "FAIL if any failure; otherwise INCOMPLETE if any NOT_AVAILABLE; otherwise PASS"
+  },
+  "iqr_outlier_rule": {
+    "metric_names": [
+      "fetal_fraction",
+      "frag_size_dist",
+      "pct_q30"
+    ],
+    "minimum_valid_n": 8,
+    "multiplier": 1.5,
+    "lower_formula": "Q1 - 1.5 * IQR",
+    "upper_formula": "Q3 + 1.5 * IQR",
+    "sample_reference_population": "reportable Actual sample",
+    "flowcell_reference_population": "unique Run + Flowcell",
+    "statuses": [
+      "IN_RANGE",
+      "LOW_OUTLIER",
+      "HIGH_OUTLIER",
+      "NOT_AVAILABLE",
+      "NOT_EVALUATED_INSUFFICIENT_N",
+      "NOT_EVALUATED_ZERO_IQR"
+    ],
+    "changes_official_qc": false
+  },
+  "review_priority": {
+    "precedence": [
+      "HIGH",
+      "REVIEW",
+      "ROUTINE"
+    ],
+    "rules": {
+      "HIGH": "official_qc_outcome starts with NON_REPORTABLE or documented_boundary_status is FAIL",
+      "REVIEW": "REPORTABLE_WARNING, documented_boundary_status INCOMPLETE, or IQR outlier",
+      "ROUTINE": "None of the conditions above"
+    },
+    "changes_official_qc": false
+  },
+  "initial_matching_settings": {
+    "settings_version": "2026-09-02.1",
+    "assembly": "GRCh37",
+    "catalog_coordinate_system": "0-based-half-open",
+    "veriseq_conversion": {
+      "result_start": "start_base - 1",
+      "result_end": "end_base"
+    },
+    "required_equal_fields": [
+      "chromosome",
+      "consequence"
+    ],
+    "result_overlap_ratio": {
+      "value": 0.5,
+      "operator": ">"
+    },
+    "item_overlap_ratio": {
+      "value": 0.5,
+      "operator": ">"
+    },
+    "reference_candidate": {
+      "minimum_overlap_bp": 1,
+      "selectable": false
+    }
+  },
+  "glcp_export_profile": {
+    "profile_version": "2026-09-02.1",
+    "encoding": "UTF-8",
+    "delimiter": "TAB",
+    "extension": ".tsv",
+    "comment_lines": [
+      "# Study Name : {STUDY_NAME}",
+      "# Experiment Type : VERISEQ"
+    ],
+    "columns": [
+      "sample_id",
+      "gene_id",
+      "rs_id",
+      "allele_1_call",
+      "allele_2_call"
+    ],
+    "study_name_template": "{POOL_ID}_{FLOWCELL_ID}_{RUN_START_YYMMDD}_{COUNT}",
+    "sample_order": "sample_id ascending as identifier string",
+    "item_order_field": "output_order",
+    "gene_id_field": "display.item_name",
+    "rs_id_field": "glcp.rs_id",
+    "normal_calls": [
+      "N",
+      "N"
+    ],
+    "positive_calls": [
+      "N",
+      "O"
+    ],
+    "include_only_active_items": true,
+    "include_secondary_findings": false,
+    "files_per_export": 1
+  }
+}

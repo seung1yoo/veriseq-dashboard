@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "manifest_version": "public-1",
+  "generated_on": "2026-09-02",
+  "source_files_are_disposable_after_implementation_validation": true,
+  "source_files": [
+    {
+      "file": "resource/nipt_item_catalog.json",
+      "role": "catalog",
+      "sha256": "018aa3708624d4dbe4065a1de1272f3f592e1ac4afa41fae91bd84705d7cb5b1"
+    },
+    {
+      "file": "resource/item_marker.tsv",
+      "role": "marker_mapping_and_output_order",
+      "sha256": "b24551deb962dd68c1e9fa7f3e5d476601d1fe210bf10fe431a46ef87296df29"
+    },
+    {
+      "file": "resource/glcp_standard_example.tsv",
+      "role": "format_and_order_example",
+      "sha256": "89001a025fd5df4de2d9015c8492d6a1ca4bb1761b4d5624edeee0402479e7cc"
+    }
+  ],
+  "validation_summary": {
+    "catalog_items": 258,
+    "marker_rows": 258,
+    "glcp_example_rows": 258,
+    "categorical_items": 26,
+    "cnv_items": 232,
+    "deletions": 162,
+    "duplications": 70,
+    "all_item_ids_joined": true,
+    "item_ids_unique": true,
+    "marker_ids_unique": true,
+    "rs_ids_unique": true,
+    "glcp_rs_order_matches_marker_order": true,
+    "glcp_example_all_normal_calls": true
+  },
+  "authority_decision": {
+    "catalog_is_authoritative_for_item_semantics": true,
+    "item_id_is_the_only_join_key": true,
+    "fuzzy_name_join_forbidden": true,
+    "output_order_source": "item_marker.tsv row order",
+    "glcp_gene_id_source": "catalog display.item_name"
+  },
+  "known_source_differences": {
+    "marker_gene_vs_catalog_item_name": [],
+    "glcp_gene_id_vs_catalog_item_name": [],
+    "glcp_gene_id_vs_marker_gene": [],
+    "note": "Use catalog display.item_name as GLCP gene_id; do not infer semantic corrections."
+  },
+  "seed_files": [
+    {
+      "file": "database/seed/nipt_catalog.v1.json",
+      "sha256": "cb0599027115b56685ffe33b88e59996d55814504fb5dd0b667fad537df69670"
+    },
+    {
+      "file": "database/seed/dashboard_reference.v1.json",
+      "sha256": "c1f2aaacb45a321eb4cad221b981b4c0c4e58b4dea4e75d00b34f7ede3059588"
+    }
+  ]
+}
